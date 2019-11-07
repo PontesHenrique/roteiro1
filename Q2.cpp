@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-#include "GradeBook.h"
+#include "Q2.h"
 
 using namespace std;
 
@@ -11,7 +11,8 @@ void Aleatorio::setJogar(int aleatorio)
 	cout << "	Adivinhe o numero de 0 a 100\n\nDigite um Numero: ";
 	cin >> numeroDigitado;
 	
-	
+	//cout << aleatorio;
+
 	while(aleatorio != numeroDigitado)
 	{
 		if(numeroDigitado > aleatorio){

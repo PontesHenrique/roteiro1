@@ -4,7 +4,7 @@
 
 using namespace std;
 
-#include "GradeBook.cpp"
+#include "Q2.cpp"
 
 int main(int argc, char** argv) {
 	
@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
 	srand(time(0));
 
 	aleatorio = rand() % 100;
-	cout << aleatorio;
+	//cout << aleatorio;
 	
 	Aleatorio teste;
 	teste.setJogar(aleatorio);
